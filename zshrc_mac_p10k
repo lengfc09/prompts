@@ -119,7 +119,6 @@ plugins=(
     macos
     fzf-zsh-plugin
     #shell-proxy
-
 )
 
 source $ZSH/oh-my-zsh.sh
