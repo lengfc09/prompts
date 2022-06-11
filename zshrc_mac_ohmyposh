@@ -115,6 +115,7 @@ plugins=(
     zsh-syntax-highlighting
     dirhistory
     macos
+    fzf-zsh-plugin
     #shell-proxy
 
 )
