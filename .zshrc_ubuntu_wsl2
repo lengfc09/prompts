@@ -22,6 +22,7 @@ eval "$(oh-my-posh init zsh --config /home/ben/Githubs/prompts/powerlevel10k_rai
 # Test Internet
 alias vpntest="curl -fsSL www.google.com"
 
+alias open="explorer.exe"
 
 
 
@@ -120,3 +121,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+# map exa commands to normal ls commands
+alias ll="exa -l -g --icons"
+alias ls="exa --icons"
+alias lt="exa --tree --icons -a -I '.git|__pycache__|.mypy_cache|.ipynb_checkpoints'"
+alias gs="git status"
+
