@@ -1,0 +1,41 @@
+{
+  "workbench.colorTheme": "Predawn",
+  "python.defaultInterpreterPath": "D:\\anaconda3\\python.exe",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultKeybindings": true,
+  "workbench.settings.useSplitJSON": true,
+  "editor.fontSize": 17,
+  "editor.fontFamily": "Source Code Pro",
+  // "editor.fontWeight":"500",
+  "debug.console.fontFamily": "Source Code Pro",
+  "debug.console.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "MesloLGM NF",
+  // "terminal.integrated.fontWeight": "600"
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideTabs": false,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "terminal.integrated.inheritEnv": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "jupyter.alwaysTrustNotebooks": true,
+  "jupyter.askForKernelRestart": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Pylance",
+  "jupyter.textOutputLimit": 0,
+  // "editor.suggest.snippetsPreventQuickSuggestions": false
+  "jupyter.sendSelectionToInteractiveWindow": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1
+  //"python.defaultInterpreterPath": "D:\\anaconda3\\python.exe",
+}
