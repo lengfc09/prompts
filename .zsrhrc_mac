@@ -45,7 +45,8 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="random"
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="agnoster"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 
@@ -117,7 +118,8 @@ plugins=(
     zsh-autosuggestions
     dirhistory
     macos
-    fzf-zsh-plugin
+    #fzf-zsh-plugin
+    fzf
     #shell-proxy
     zsh-syntax-highlighting
 )
@@ -159,6 +161,7 @@ alias vpntest="curl -fsSL www.google.com"
 # cd jekyllweb
 alias cdweb="cd ~/Documents/Jekyll_Websites/lengfc09.github.io"
 alias webserve="bundle exec jekyll serve"
+alias cdrisks="cd /Users/Ben/Documents/FEH_Cloud/风险管理部/远行基金/2.\ 项目审批"
 
 # map exa commands to normal ls commands
 alias ll="eza -l -g -h --icons"
